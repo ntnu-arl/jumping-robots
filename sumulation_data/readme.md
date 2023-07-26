@@ -4,11 +4,24 @@ Files named xxx are simulation results CSV files containing the following data i
 
 | Column number  | column content |
 | ------------- | ------------- |
-| 1  | Outer loop iteration number  |
-| 2  | Middle loop iteration number  |
-| 3  | Inner loop iteration number  |
-
-
+| 1  | Simulation counter |
+| 2  | Outer loop iteration number |
+| 3  | Middle loop iteration number  |
+| 4  | Inner loop iteration number  |
+| 5  | Body max position |
+| 6  | Body position  |
+| 7  | Body nominal position  |
+| 8  | Zero  |
+| 9  | Paw max position  |
+| 10  | Paw min position  |
+| 12  | Paw nominal position |
+| 13  | Hip length  |
+| 14  | Hip length  |
+| 15  | Calf length  |
+| 16  | Calf length |
+| 17  | Spring coefficient  |
+| 18  | Body max position minus body nominal position  |
+| 19  | Calf length divided by hip length  |
 
 ## Figures illustrating the result of the simulations
 
