@@ -1,6 +1,17 @@
-# Folder contains the Grid search optimization simulation data 
+# Grid search optimization simulation data 
 
-Files named xxx are simulation results CSV files containing the following data in each column:
+
+
+## Result of the simulations
+| Simulation parameter  | parameter range |
+| ------------- | ------------- |
+| Hip length  | 0.1 - 0.3 m |
+| Calf length  | 0.15 - 0.45 m |
+| Spring stiffness  | 600 - 1000 N/m |
+
+![Diamond_vs_parallel](https://github.com/ntnu-arl/jumping-robots/assets/47317437/3fb1a3e2-c87f-4e2d-a7d4-7f82be486bf4)
+
+Files named '''sim_data.csv''' are simulation results CSV files containing the following data in each column:
 
 | Column number  | column content |
 | ------------- | ------------- |
@@ -22,12 +33,3 @@ Files named xxx are simulation results CSV files containing the following data i
 | 17  | Spring coefficient  |
 | 18  | Body max position minus body nominal position  |
 | 19  | Calf length divided by hip length  |
-
-## Result of the simulations
-| Simulation parameter  | parameter range |
-| ------------- | ------------- |
-| Hip length  | 0.1 - 0.3 m |
-| Calf length  | 0.15 - 0.45 m |
-| Spring stiffness  | 600 - 1000 N/m |
-
-![Diamond_vs_parallel](https://github.com/ntnu-arl/jumping-robots/assets/47317437/3fb1a3e2-c87f-4e2d-a7d4-7f82be486bf4)
