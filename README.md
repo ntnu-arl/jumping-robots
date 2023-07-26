@@ -1,2 +1,2 @@
 # jumping-robots
-Repository for jumpingrobots
+Repository for jumping robots
