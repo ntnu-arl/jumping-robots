@@ -19,6 +19,8 @@ Simulations were performed in Matlab Simscape multibody with a simplified physic
 
 The Figure below is a 4D representation of the simulation results, illustrating the jump height for both the symmetric/diamond 5-bar design and the parallel 5-bar design based on varying hip length, calf length, and spring stiffness. All other parameters, such as weight, squat angle, motor power output, and gravity, were held constant for both simulations.
 
+Note that it is set that l1 = l2 and l3 = l4 as a diamond 5-bar configuration is employed.
+
 | Simulation parameter  | Parameter value |
 | ------------- | ------------- |
 | Motor torque  | 21.6 Nm |
