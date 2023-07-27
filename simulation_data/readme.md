@@ -22,7 +22,7 @@ The Figure below is a 4D representation of the simulation results, illustrating 
 | Simulation parameter  | Parameter value |
 | ------------- | ------------- |
 | Motor torque  | 21.6 Nm |
-| squat angle  | 120 deg |
+| Squat angle  | 120 deg |
 
 
 ![Diamond_vs_parallel](https://github.com/ntnu-arl/jumping-robots/assets/47317437/3fb1a3e2-c87f-4e2d-a7d4-7f82be486bf4)
