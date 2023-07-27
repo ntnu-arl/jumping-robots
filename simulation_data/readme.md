@@ -1,9 +1,11 @@
 # Grid search optimization simulation data 
 
-This repository contains the simulation data output for the paper: **Design and Experimental Verification of a Jumping Legged Robot for
+This repository contains the grid search optimization simulation data output for the paper: **Design and Experimental Verification of a Jumping Legged Robot for
 Martian Lava Tube Exploration.**
 
-The simulations were performed in Matlabs Simscape multibody with a simplified physical model containing the body with two 5-bar legs, each leg consisting of hips, calf, and paw. Height is measured from the center of the simulated motors as body height.
+
+Simulations were performed in Matlab Simscape multibody with a simplified physical model containing the body with two 5-bar legs, each leg consisting of hips, calves, and a paw. Height is measured from the center of the simulated robot body  at the point where the rotational joints representing the actuators in the 5-bar leg are located. The grid search parameters are listed in the table below.
+
 
 ## Result of the simulations
 | Simulation parameter  | Parameter range |
@@ -12,15 +14,20 @@ The simulations were performed in Matlabs Simscape multibody with a simplified p
 | Calf length  | 0.15 - 0.45 m |
 | Spring stiffness  | 600 - 1000 N/m |
 
-The following is a 4D representation of the simulation results illustrating the jump height for both the symmetric/diamond 5-bar design and the parallel 5-bar design based on varying Hip length, calf length, and spring stiffness. All other parameters, such as weight, squat angle, motor power output, and gravity, were held constant for both simulations.
+
+The Figure below is a 4D representation of the simulation results, illustrating the jump height for both the symmetric/diamond 5-bar design and the parallel 5-bar design based on varying hip length, calf length, and spring stiffness. All other parameters, such as weight, squat angle, motor power output, and gravity, were held constant for both simulations.
+
 
 ![Diamond_vs_parallel](https://github.com/ntnu-arl/jumping-robots/assets/47317437/3fb1a3e2-c87f-4e2d-a7d4-7f82be486bf4)
 
+
 ## Data from simulations
 
-Files named 'parallel_sim_data.csv' and 'symetric_sim_data.csv' are simulation results for the 5-bar grid search simulations for parallel and symmetric/diamond configurations, respectively.
+Files named 'parallel_sim_data.csv' and 'symetric_sim_data.csv' are the simulation results for the  grid search simulations for parallel and symmetric/diamond  5-bar configurations, respectively.
 
-CSV files containing the following data in each column:
+
+CSV files contain the following data in each column:
+
 
 | Column number  | Column content |
 | ------------- | ------------- |
