@@ -8,6 +8,7 @@ Simulations were performed in Matlab Simscape multibody with a simplified physic
 
 
 ## Result of the simulations
+
 | Simulation parameter  | Parameter range |
 | ------------- | ------------- |
 | Hip length  | 0.1 - 0.3 m |
@@ -15,7 +16,13 @@ Simulations were performed in Matlab Simscape multibody with a simplified physic
 | Spring stiffness  | 600 - 1000 N/m |
 
 
+
 The Figure below is a 4D representation of the simulation results, illustrating the jump height for both the symmetric/diamond 5-bar design and the parallel 5-bar design based on varying hip length, calf length, and spring stiffness. All other parameters, such as weight, squat angle, motor power output, and gravity, were held constant for both simulations.
+
+| Simulation parameter  | Parameter value |
+| ------------- | ------------- |
+| Motor toque  | 21.6 Nm |
+| squat angle  | 120 deg |
 
 
 ![Diamond_vs_parallel](https://github.com/ntnu-arl/jumping-robots/assets/47317437/3fb1a3e2-c87f-4e2d-a7d4-7f82be486bf4)
