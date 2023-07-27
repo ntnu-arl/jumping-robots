@@ -21,7 +21,7 @@ The Figure below is a 4D representation of the simulation results, illustrating 
 
 | Simulation parameter  | Parameter value |
 | ------------- | ------------- |
-| Motor toque  | 21.6 Nm |
+| Motor torque  | 21.6 Nm |
 | squat angle  | 120 deg |
 
 
